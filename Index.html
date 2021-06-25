@@ -1,0 +1,51 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="Tip.js">
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<h1>TIP CALCULATOR</h1>
+		<div class="wrapper">
+			
+<p>How Much Was Your Bill</p>
+
+			<input type="text" id="amount"
+				placeholder="Amount to be paid"> ₹
+
+			
+<p>How was Your service ?</p>
+
+			<select id="services">
+				<option selected disabled hidden>
+					Select
+				</option>
+				<option value="0.50">50% - Excellent</option>
+				<option value="0.40">40% - V.Good</option>
+				<option value="0.30">30% - Good</option>
+				<option value="0.20">20% - Bad</option>
+				<option value="0.10">10% - Poor</option>
+			</select>
+
+			
+<p>How Many People Was Sharing The Bill</p>
+
+			<input type="text" id="persons"
+				placeholder="Number of people sharing the bill">
+			<button id="calculate">Calculate</button>
+		</div>
+
+		<div class="tip">
+			
+<p>Tip Amount</p>
+
+			<span id="total">0</span>₹
+			<span id="each">each</span>
+		</div>
+	</div>
+</body>
+
+</html>
